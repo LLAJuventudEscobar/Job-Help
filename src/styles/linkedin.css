@@ -1,0 +1,46 @@
+#linkedin {
+    padding-top: 50px;
+}
+
+#linkedinContainer {
+    width: 80%;
+    margin: auto;
+}
+
+#linkedinContainer h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.hr {
+    border-bottom: 1px;
+    color: var(--primary);
+    width: 85%;
+}
+
+.linkedinText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-in-progress {
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin: 30px auto;
+    margin-bottom: 100px;
+}
+
+.fotoDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.fotoDiv img{
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+}

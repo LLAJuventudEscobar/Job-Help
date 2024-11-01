@@ -1,0 +1,52 @@
+#navContainer {
+    background-color: #000000;
+    border-bottom: 1px solid;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+#navBar div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    width: auto;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+#name {
+    margin-left: 20px;
+    cursor: default;
+    font-size: 24px;
+    user-select: none;
+}
+
+#navLinks {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.navAnchor {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 18px;
+}
+
+.navAnchor:hover {
+    color: var(--primary);
+}

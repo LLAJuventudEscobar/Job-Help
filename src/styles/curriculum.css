@@ -1,0 +1,130 @@
+#cv {
+    padding-top: 50px;
+}
+
+#cvContainer {
+    width: 80%;
+    margin: auto;
+}
+
+#cvContainer h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.hr {
+    border-bottom: 1px;
+    color: var(--primary);
+    width: 85%;
+}
+
+.divImgRight {
+    display: flex;
+    gap: 5%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.divImgRight img {
+    height: auto;
+    width: 40%;
+    box-shadow: 3px 6px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 2px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.part {
+    margin-bottom: 50px;
+}
+
+.separation {
+    border-bottom: dotted 5px var(--primary);
+    border-top: 0px;
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+#h3Components h3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 45px;
+}
+
+.textosEntrelazados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.texto1 {
+    justify-content: flex-end;
+    text-align: left;
+    background-color: var(--secondary);
+    width: 62%;
+    margin-right: 30%;
+    padding: 5px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition:.6s ease;
+}
+
+.texto2 {
+    justify-content: flex-start;
+    text-align: right;
+    background-color: var(--terciary);
+    width: 62%;
+    margin-left: 30%;
+    padding: 5px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition:.6s ease;
+}
+
+.texto1:hover, .texto2:hover {
+    padding: 10px 25px;
+}
+
+h4 {
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.textosEntrelazados p {
+    width: 100%;
+}
+
+#ejemplos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ejemplos p {
+    text-align: center;
+    width: 90%;
+}
+
+#pdfs {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.pdfEjemplo {
+    color: var(--text);
+    text-decoration: none;
+    background-color: var(--secondary);
+    padding: 10px 20px;
+    border-radius: 2px;
+}

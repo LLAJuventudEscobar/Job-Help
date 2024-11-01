@@ -1,0 +1,26 @@
+#inicio {
+    padding-top: 1px;
+}
+
+#inicioContainer {
+    display: flex;
+    gap: 5%;
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.inicioImg {
+    width: 80%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.hr {
+    border-bottom: 1px;
+    color: var(--primary);
+    width: 85%;
+}
